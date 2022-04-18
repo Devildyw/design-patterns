@@ -6,7 +6,7 @@ import (
 )
 
 // The factory to create product
-// You can get a factory with the method New which is provided by the package factory
+// You can get a factory with the function NewPlaneFactory which is provided by the package factory
 // You can get a instance of the plane with the method NewProduct
 type planeFactory struct {
 }

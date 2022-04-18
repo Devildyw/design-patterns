@@ -4,8 +4,9 @@ import (
 	"factorymethodpattern/interfaces"
 	"factorymethodpattern/product"
 )
+
 // The factory to create product
-// You can get a factory with the method New which is provided by the package factory
+// You can get a factory with the function NewBikeFactory which is provided by the package factory
 // You can get a instance of the bike with the method NewProduct
 type bikeFactory struct {
 }
