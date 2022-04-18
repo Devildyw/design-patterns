@@ -6,3 +6,4 @@
 * 如果你有一定的设计模式的了解你可以直接查看对应的样例,如果你完全不熟悉设计模式,那么下面的参考文献可能是一个好的入门书籍.
 ---
 文献参考: [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
+文献参考: [Refactoring.Guru](https://refactoringguru.cn/design-patterns)
