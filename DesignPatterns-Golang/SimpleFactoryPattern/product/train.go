@@ -2,6 +2,7 @@ package product
 
 import "fmt"
 
+// Train to implement the interface vehicle
 type Train struct {
 }
 

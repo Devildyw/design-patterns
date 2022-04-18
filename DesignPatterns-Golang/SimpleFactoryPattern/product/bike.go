@@ -2,6 +2,7 @@ package product
 
 import "fmt"
 
+// Bike to implement the interface vehicle
 type Bike struct {
 }
 

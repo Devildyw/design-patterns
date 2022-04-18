@@ -2,6 +2,7 @@ package product
 
 import "fmt"
 
+// Plane to implement the interface vehicle
 type Plane struct {
 }
 
