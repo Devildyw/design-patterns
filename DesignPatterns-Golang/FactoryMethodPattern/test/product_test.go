@@ -6,17 +6,21 @@ import (
 )
 
 func TestBike(t *testing.T) {
-	factory.NewBikeFactory().NewProduct().Work()
+	f := factory.BikeFactory{}
+	f.NewProduct().Work()
 }
 
 func TestCar(t *testing.T) {
-	factory.NewCarFactory().NewProduct().Work()
+	f := factory.CarFactory{}
+	f.NewProduct().Work()
 }
 
 func TestTrain(t *testing.T) {
-	factory.NewTrainFactory().NewProduct().Work()
+	f := factory.TrainFactory{}
+	f.NewProduct().Work()
 }
 
 func TestPlane(t *testing.T) {
-	factory.NewPlaneFactory().NewProduct().Work()
+	f := factory.PlaneFactory{}
+	f.NewProduct().Work()
 }

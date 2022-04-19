@@ -6,17 +6,11 @@ import (
 )
 
 // The factory to create product
-// You can get a factory with the function NewTrainFactory which is provided by the package factory
 // You can get a instance of the train with the method NewProduct
-type trainFactory struct {
-}
-
-// NewTrainFactory with the function, you can get an instance of the factory
-func NewTrainFactory() *trainFactory {
-	return &trainFactory{}
+type TrainFactory struct {
 }
 
 // NewProduct with the method, you can get an instance of the Train
-func (t *trainFactory) NewProduct() interfaces.Vehicle {
+func (t *TrainFactory) NewProduct() interfaces.Vehicle {
 	return &product.Train{}
 }
