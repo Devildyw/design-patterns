@@ -4,13 +4,8 @@ import (
 	"fmt"
 )
 
-// HungrySingleton to create the instance
-func init() {
-	instance = &hungrysingleton{}
-}
-
 // Declare an instance for global use
-var instance *hungrysingleton
+var instance = &hungrysingleton{}
 
 type hungrysingleton struct {
 }
