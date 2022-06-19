@@ -133,7 +133,7 @@ public class BikeFactory extends VehiclesFactory{
 演示类`Main.java`
 
 ```java
-package com.dyw.factoryMethodPattern.main;
+package com.dyw.factoryMethodPattern.client;
 
 import com.dyw.factoryMethodPattern.factory.BikeFactory;
 import com.dyw.factoryMethodPattern.factory.VehiclesFactory;

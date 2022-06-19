@@ -1,4 +1,4 @@
-package com.dyw.factoryMethodPattern.main;
+package com.dyw.factoryMethodPattern.client;
 
 import com.dyw.factoryMethodPattern.factory.BikeFactory;
 import com.dyw.factoryMethodPattern.factory.VehiclesFactory;
@@ -11,7 +11,7 @@ import com.dyw.factoryMethodPattern.product.Vehicles;
  * <strong>该类用于向读者展示工厂方法是否有效</strong>
  * <p>这里仅仅只是展示了一个产品的工厂生产 通过这一个例子 读者足以理解本片想要表达的含义</p>
  */
-public class Main {
+public class Client {
     public static void main(String[] args) {
         //这里我想要一辆自行车
         //首先创建一个工厂类 让他帮我们创建类
