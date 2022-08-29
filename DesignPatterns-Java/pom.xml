@@ -18,6 +18,7 @@
         <module>BridgeDesignPattern</module>
         <module>DecoratorPattern</module>
         <module>FacadePattern</module>
+        <module>FlyweightPattern</module>
     </modules>
 
     <properties>
