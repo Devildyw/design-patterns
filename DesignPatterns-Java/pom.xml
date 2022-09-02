@@ -20,6 +20,7 @@
         <module>FacadePattern</module>
         <module>FlyweightPattern</module>
         <module>ProxyPattern</module>
+        <module>CommandPattern</module>
     </modules>
 
     <properties>
