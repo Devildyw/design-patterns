@@ -22,6 +22,7 @@
         <module>ProxyPattern</module>
         <module>CommandPattern</module>
         <module>MediatorPattern</module>
+        <module>ObserverPattern</module>
     </modules>
 
     <properties>
