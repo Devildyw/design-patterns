@@ -21,6 +21,7 @@
         <module>FlyweightPattern</module>
         <module>ProxyPattern</module>
         <module>CommandPattern</module>
+        <module>MediatorPattern</module>
     </modules>
 
     <properties>
