@@ -23,6 +23,7 @@
         <module>CommandPattern</module>
         <module>MediatorPattern</module>
         <module>ObserverPattern</module>
+        <module>StatePattern</module>
     </modules>
 
     <properties>
